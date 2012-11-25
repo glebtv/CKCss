@@ -16,7 +16,8 @@ You might need to add a locale file for your language
 ## Credits
 
 Original plugin: http://code.google.com/p/ckcss/
-Update of this plugin: http://extensions.joomla.org/extensions/extension-specific/jck-editor-extensions/15373
+
+Update of original plugin: http://extensions.joomla.org/extensions/extension-specific/jck-editor-extensions/15373
 
 ## License
 
