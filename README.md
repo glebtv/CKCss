@@ -2,6 +2,8 @@
 
 This is an update of the CKCss plugin to work with CKEditor 4
 
+This plugin adds full-featured inline CSS editing (similar to TinyMCE's "Edit CSS Style" button) to CKEditor.
+
 ## Usage
         
         config.extraPlugins = "...,CKCss";
@@ -12,6 +14,8 @@ This is an update of the CKCss plugin to work with CKEditor 4
             ];
 
 You might need to add a locale file for your language
+
+Note: you can enter most values directly in select boxes when "Type In" mode is selected.
 
 ## Credits
 
