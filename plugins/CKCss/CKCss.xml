@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="CKCss" method="upgrade">
+	<name>CKCss</name>
+	<version>1.4</version>
+	<creationDate>Sept 2012</creationDate>
+	<author>Charlie Croom, JoomlaCK Team</author>
+	<copyright>Copyright (C) 2012 - 2013 Webxsolution Ltd</copyright>
+	<authorUrl>http://www.joomlackeditor.com</authorUrl>
+	<license>GNU/GPLv2</license>
+	<description>CSS Editor for CKEditor</description>
+	<languages>
+	</languages>
+	<icon>ckcss.png</icon>
+	<files>	
+	<filename>ckcss.png</filename>
+	<filename>plugin.js</filename>
+	<folder>dialogs</folder>
+	<folder>lang</folder>
+	<folder>css</folder>
+    </files>
+	<params>
+		<param name="dialogtitle" type="text" default="CSS Editor Properties" label="Dialog Title" description="The Title shown in the dialog for this plugin" />
+		<param name="height" type="text" default="400" label="Dialog height" description="The height of dialog" />
+		<param name="width" type="text" default="550" label="Dialog width" description="The width of dialog"/>
+	</params>
+</install>
