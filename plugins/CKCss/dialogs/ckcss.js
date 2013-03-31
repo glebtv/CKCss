@@ -675,16 +675,14 @@
                                     },
                                     {
                                         type: 'button',
-                                        id: 'colorChoose',
+                                        id: 'txcolorChoose',
                                         label: editor.lang.CKCss.choose,
                                         style: 'margin-left: 10px',
                                         onClick: function () {
                                             var self = this;
-                                            getDialogValue('colordialog', function (colorDialog) {
+                                            editor.getColorFromDialog(function(val) {
                                                 var destElem = self.getDialog().getContentElement('page1', 'color');
-                                                destElem.setValue(
-                                                    colorDialog.getContentElement('picker', 'selectedColor').getValue()
-                                                );
+                                                destElem.setValue(val);
                                                 preview(destElem);
                                             });
                                         }
@@ -1019,16 +1017,14 @@
                                     },
                                     {
                                         type: 'button',
-                                        id: 'colorChoose',
+                                        id: 'bgcolorChoose',
                                         label: editor.lang.CKCss.choose,
                                         style: 'margin-left: 10px',
                                         onClick: function () {
                                             var self = this;
-                                            getDialogValue('colordialog', function (colorDialog) {
+                                            editor.getColorFromDialog(function(val) {
                                                 var destElem = self.getDialog().getContentElement('page3', 'backgroundColor');
-                                                destElem.setValue(
-                                                    colorDialog.getContentElement('picker', 'selectedColor').getValue()
-                                                );
+                                                destElem.setValue(val);
                                                 preview(destElem);
                                             });
                                         }
@@ -1383,16 +1379,14 @@
                                             },
                                             {
                                                 type: 'button',
-                                                id: 'colorChoose',
+                                                id: 'btcolorChoose',
                                                 label: editor.lang.CKCss.choose,
                                                 style: 'margin-left: 10px',
                                                 onClick: function () {
                                                     var self = this;
-                                                    getDialogValue('colordialog', function (colorDialog) {
+                                                    editor.getColorFromDialog(function(val) {
                                                         var destElem = self.getDialog().getContentElement('page4', 'borderTopColor');
-                                                        destElem.setValue(
-                                                            colorDialog.getContentElement('picker', 'selectedColor').getValue()
-                                                        );
+                                                        destElem.setValue(val);
                                                         preview(destElem);
                                                         var dialog = destElem.getDialog();
                                                         var elem = dialog.getContentElement('page4', 'borderColorAll');
@@ -1485,16 +1479,14 @@
                                             },
                                             {
                                                 type: 'button',
-                                                id: 'colorChoose',
+                                                id: 'brcolorChoose',
                                                 label: editor.lang.CKCss.choose,
                                                 style: 'margin-left: 10px',
                                                 onClick: function () {
                                                     var self = this;
-                                                    getDialogValue('colordialog', function (colorDialog) {
+                                                    editor.getColorFromDialog(function(val) {
                                                         var destElem = self.getDialog().getContentElement('page4', 'borderRightColor');
-                                                        destElem.setValue(
-                                                            colorDialog.getContentElement('picker', 'selectedColor').getValue()
-                                                        );
+                                                        destElem.setValue(val);
                                                         preview(destElem);
                                                     });
                                                 }
@@ -1584,16 +1576,14 @@
                                             },
                                             {
                                                 type: 'button',
-                                                id: 'colorChoose',
+                                                id: 'bbcolorChoose',
                                                 label: editor.lang.CKCss.choose,
                                                 style: 'margin-left: 10px',
                                                 onClick: function () {
                                                     var self = this;
-                                                    getDialogValue('colordialog', function (colorDialog) {
+                                                    editor.getColorFromDialog(function(val) {
                                                         var destElem = self.getDialog().getContentElement('page4', 'borderBottomColor');
-                                                        destElem.setValue(
-                                                            colorDialog.getContentElement('picker', 'selectedColor').getValue()
-                                                        );
+                                                        destElem.setValue(val);
                                                         preview(destElem);
                                                     });
                                                 }
@@ -1683,16 +1673,14 @@
                                             },
                                             {
                                                 type: 'button',
-                                                id: 'colorChoose',
+                                                id: 'blcolorChoose',
                                                 label: editor.lang.CKCss.choose,
                                                 style: 'margin-left: 10px',
                                                 onClick: function () {
                                                     var self = this;
-                                                    getDialogValue('colordialog', function (colorDialog) {
+                                                    editor.getColorFromDialog(function(val) {
                                                         var destElem = self.getDialog().getContentElement('page4', 'borderLeftColor');
-                                                        destElem.setValue(
-                                                            colorDialog.getContentElement('picker', 'selectedColor').getValue()
-                                                        );
+                                                        destElem.setValue(val);
                                                         preview(destElem);
                                                     });
                                                 }

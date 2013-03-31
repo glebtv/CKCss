@@ -6,7 +6,7 @@ This plugin adds full-featured inline CSS editing (similar to TinyMCE's "Edit CS
 
 ## Usage
         
-        config.extraPlugins = "...,CKCss";
+        config.extraPlugins = "...,colordialog,CKCss";
         config.toolbar = 'CMS';
         config.toolbar_CMS =
             [
